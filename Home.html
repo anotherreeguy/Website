@@ -12,6 +12,21 @@
       margin: 0;
       padding: 0;
     }
+    .header {
+      background-color: #f0f0f0;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-links {
+      display: flex;
+    }
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+    }
     .welcome-text {
       font-size: 32px; /* Increased font size */
       font-weight: bold;
@@ -28,11 +43,20 @@
   </style>
 </head>
 <body>
+  <div class="header">
+    <div class="logo">ReeGuys Website</div>
+    <div class="nav-links">
+      <div class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="websites.html">Websites</a>
+      </div>      
+    </div>
+  </div>
   <div class="welcome-text">Welcome to the ReeGuy website!</div>
   <div class="links">
     <a href="https://www.youtube.com/@reeguy"><img src="youtube_button_image_url" alt="YouTube"></a>
     <a href="https://www.github.com/anotherreeguy"><img src="github_button_image_url" alt="GitHub"></a>
-    <a href="minecraft://?addExternalServer=bedrock.reeguy.nl|bedrock.reeguy.nl:2210"><img src="minecraft_button_image_url" alt="ReeBit"></a>
+    <a href="minecraft://?addExternalServer=bedrock.reeguy.nl|bedrock.reeguy.nl:2210"><img src="minecraft_button_image_url" alt="Minecraft"></a>
   </div>
 </body>
 </html>
